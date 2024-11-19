@@ -16,7 +16,7 @@ most of the addons I am writing are for game development, so there are some nich
 
 ## Installation
 
-1. download the addon you would like to install, ATANTION!! this is not a zip packed addon, this are standalone addons (single script)
+1. download the addon you would like to install, attention!! this is not a zip packed addon, this are standalone addons (single script)
 2. Open Blender and go to **Edit > Preferences > Add-ons**.
 3. Click **Install...**, select the downloaded `.py` file, and enable the addon in the list.
 4. Save preferences if needed.
