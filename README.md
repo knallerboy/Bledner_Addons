@@ -12,6 +12,7 @@ most of the addons I am writing are for game development, so there are some nich
 - empty to selected vertex, it is adding an plain axes ampty to the average selected vertex, or single selected vertex of selected objects, located under the add object -> mesh, function
 - replace object with empty speaks for it self, it will use also plain axis empty
 - multi mass rename objects with suffix for godot collision import
+- add uv unwrape seams at outlines from multiple selected faces but not the inner lines of the selected fields
 
 ---
 
