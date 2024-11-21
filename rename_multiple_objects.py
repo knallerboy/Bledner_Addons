@@ -3,7 +3,7 @@ bl_info = {
     "author": "linebyline",
     "version": (1, 2, 0),
     "blender": (4, 1, 1),
-    "location": "View 3D > Tool",
+    "location": "View 3D > linebyline",
     "description": "Renames selected objects with a numerical suffix, additional suffixes, and custom suffix",
     "category": "Object",
 }
@@ -62,7 +62,7 @@ class VIEW3D_PT_RenameMultipleObjects(bpy.types.Panel):
     bl_idname = "VIEW3D_PT_rename_multiple_objects"
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category = 'Tool'
+    bl_category = 'linebyline'
     
     def draw(self, context):
         layout = self.layout
