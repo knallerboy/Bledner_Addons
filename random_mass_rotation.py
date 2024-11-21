@@ -3,7 +3,7 @@ bl_info = {
     "author": "linebyline",
     "version": (1, 2, 0),
     "blender": (4, 1, 0),
-    "location": "View3D > Tool Shelf",
+    "location": "View3D > linebyline",
     "description": "Randomly manipulate objects with rotation and movement",
     "category": "Object",
 }
@@ -55,7 +55,7 @@ class RandomManipulatorPanel(bpy.types.Panel):
     bl_idname = "OBJECT_PT_random_manipulator"
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category = 'Tool'
+    bl_category = 'linebyline'
 
     def draw(self, context):
         layout = self.layout
